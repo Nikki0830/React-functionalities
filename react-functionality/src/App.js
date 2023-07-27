@@ -4,7 +4,7 @@ import Covid from './Component/LiveCovidTracker/Covid';
 
 function App() {
   return (
-    <div className="App">
+    <div>
     <Covid/>
     </div>
   );
