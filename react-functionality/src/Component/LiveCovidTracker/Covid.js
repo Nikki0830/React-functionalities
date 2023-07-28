@@ -20,7 +20,7 @@ const Covid = () => {
   }, []);
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <p className="Live"> &#128721; LIVE</p>
         <h1 className="Covid">COVID-19 CORONAVIRUS TRACKER</h1>
 
@@ -107,8 +107,10 @@ const Covid = () => {
               style={{ width: "100%", marginRight: "1rem" }}
             >
               <div className="card-body">
-             <div className="d-inline p-2 bg-primary text-white">d-inline</div>
-<div className="d-inline p-2 bg-dark text-white">d-inline</div>
+                <div className="d-inline p-2 bg-primary text-white">
+                  d-inline
+                </div>
+                <div className="d-inline p-2 bg-dark text-white">d-inline</div>
                 <p className="card-text">INDIA</p>
               </div>
             </div>
