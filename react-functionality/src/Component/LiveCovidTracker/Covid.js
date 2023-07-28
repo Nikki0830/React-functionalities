@@ -107,8 +107,8 @@ const Covid = () => {
               style={{ width: "100%", marginRight: "1rem" }}
             >
               <div className="card-body">
-                <h5 className="card-title d-inline">OUR</h5>
-                <h5 className="card-title d-inline">COUNTRY</h5>
+             <div className="d-inline p-2 bg-primary text-white">d-inline</div>
+<div className="d-inline p-2 bg-dark text-white">d-inline</div>
                 <p className="card-text">INDIA</p>
               </div>
             </div>
@@ -132,8 +132,8 @@ const Covid = () => {
             >
               <div className="card-body">
                 <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">RECOVERED</h5>
-                <p className="card-text">{data.recovered}</p>
+                <h5 className="card-title d-inline">CONFIRMED</h5>
+                <p className="card-text">{data.confirmed}</p>
               </div>
             </div>
           </Col>
@@ -144,8 +144,8 @@ const Covid = () => {
             >
               <div className="card-body">
                 <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">RECOVERED</h5>
-                <p className="card-text">{data.recovered}</p>
+                <h5 className="card-title d-inline">DEATH</h5>
+                <p className="card-text">{data.deaths}</p>
               </div>
             </div>
           </Col>
@@ -156,8 +156,8 @@ const Covid = () => {
             >
               <div className="card-body">
                 <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">RECOVERED</h5>
-                <p className="card-text">{data.recovered}</p>
+                <h5 className="card-title d-inline">ACTIVE</h5>
+                <p className="card-text">{data.active}</p>
               </div>
             </div>
           </Col>
@@ -167,9 +167,9 @@ const Covid = () => {
               style={{ width: "100%", marginRight: "1rem" }}
             >
               <div className="card-body">
-                <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">RECOVERED</h5>
-                <p className="card-text">{data.recovered}</p>
+                <h5 className="card-title d-inline">LAST</h5>
+                <h5 className="card-title d-inline">UPDATE</h5>
+                <p className="card-text"> {data.lastupdatedtime}</p>
               </div>
             </div>
           </Col>
