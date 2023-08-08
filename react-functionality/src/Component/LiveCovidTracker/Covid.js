@@ -106,11 +106,9 @@ const Covid = () => {
               className="card bg-info"
               style={{ width: "100%", marginRight: "1rem" }}
             >
-              <div className="card-body">
-                <div className="d-inline p-2 bg-primary text-white">
-                  d-inline
-                </div>
-                <div className="d-inline p-2 bg-dark text-white">d-inline</div>
+              <div className="card-body text-center">
+                <div className="d-inline text-white ">OUR</div>
+                <div className="d-inline text-white">COUNTRY</div>
                 <p className="card-text">INDIA</p>
               </div>
             </div>
