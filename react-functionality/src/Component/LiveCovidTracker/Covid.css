@@ -14,9 +14,26 @@
       color:white;
 }
 .card {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
       rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-      margin-top: 2rem;
+      margin-top: 2rem; */
+      box-shadow: 5px 5px 2px white;
+  }
+  .our{
+    font-size:7px;
+    /* font-weight: bold; */
+    
+   
+  }
+  .country{
+    font-size:larger;
+    font-weight: bold;
+  }
+  .card-text{
+    font-size:20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px white;
+    /* text-shadow: 2px 4px 4px black(46,91,173,0.6); */
   }
 
 /* .card{

@@ -100,79 +100,87 @@ const Covid = () => {
               </li>
             </Col>
           </ul> */}
-        <div className="row">
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+        <div
+          className="row"
+          style={{
+            width: "70%",
+            marginLeft: "15%",
+            marginTop:"3%"
+          }}
+        >
+          <Col xs={12} sm={4} lg={3} xl={4} className="mb-4">
             <div
               className="card bg-info"
               style={{ width: "100%", marginRight: "1rem" }}
             >
               <div className="card-body text-center">
-                <div className="d-inline text-white ">OUR</div>
-                <div className="d-inline text-white">COUNTRY</div>
+                <div className="d-inline text-white mb-2 our">OUR</div>
+                <div className="d-inline text-white country">COUNTRY</div>
                 <p className="card-text">INDIA</p>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          <Col xs={12} sm={4} lg={3} xl={4} className="mb-4">
             <div
               className="card bg-success"
               style={{ width: "100%", marginRight: "1rem" }}
             >
-              <div className="card-body">
-                <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">RECOVERED</h5>
+              <div className="card-body text-center">
+                <div className="d-inline text-white mb-2 our">TOTAL</div>
+                <div className="d-inline text-white country">RECOVERED</div>
                 <p className="card-text">{data.recovered}</p>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          <Col xs={12} sm={4} lg={3} xl={4} className="mb-4">
             <div
               className="card bg-danger"
               style={{ width: "100%", marginRight: "1rem" }}
             >
-              <div className="card-body">
-                <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">CONFIRMED</h5>
+              <div className="card-body text-center">
+                <div className="d-inline text-white mb-2 our">TOTAL</div>
+                <div className="d-inline text-white country">CONFIRMED</div>
                 <p className="card-text">{data.confirmed}</p>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          <Col xs={12} sm={4} lg={3} xl={4} className="mb-4">
             <div
               className="card bg-warning"
               style={{ width: "100%", marginRight: "1rem" }}
             >
-              <div className="card-body">
-                <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">DEATH</h5>
+              <div className="card-body text-center">
+                <div className="d-inline text-white mb-2 our">TOTAL</div>
+                <div className="d-inline text-white country">DEATH</div>
                 <p className="card-text">{data.deaths}</p>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          <Col xs={12} sm={4} lg={3} xl={4} className="mb-4">
             <div
               className="card bg-info"
               style={{ width: "100%", marginRight: "1rem" }}
             >
-              <div className="card-body">
-                <h5 className="card-title d-inline">TOTAL</h5>
-                <h5 className="card-title d-inline">ACTIVE</h5>
+              <div className="card-body text-center">
+                <div className="d-inline text-white mb-2 our">TOTAL</div>
+                <div className="d-inline text-white country">ACTIVE</div>
                 <p className="card-text">{data.active}</p>
               </div>
             </div>
           </Col>
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          <Col xs={12} sm={4} lg={3} xl={4} className="mb-4">
             <div
-              className="card bg-warning bg-gradient"
+              className="card bg-warning"
               style={{ width: "100%", marginRight: "1rem" }}
             >
-              <div className="card-body">
-                <h5 className="card-title d-inline">LAST</h5>
-                <h5 className="card-title d-inline">UPDATE</h5>
-                <p className="card-text"> {data.lastupdatedtime}</p>
+              <div className="card-body text-center">
+                <div className="d-inline text-white mb-2 our">LAST</div>
+                <div className="d-inline text-white country">UPDATED</div>
+                <p className="card-text">{data.lastupdatedtime}</p>
               </div>
             </div>
           </Col>
+       
         </div>
       </div>
     </>
